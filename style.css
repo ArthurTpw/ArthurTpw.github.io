@@ -1,0 +1,84 @@
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  background-color: OrangeRed;
+  
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.left, .right {
+  background-color: LightGrey;
+  
+  margin: 5px;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left {
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-family: Impact, Charcoal, sans-serif;
+  margin-bottom: 2px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+ul.bio{
+	font-family: "Comic Sans Ms";
+	font-size: 36px;
+}
+.social-links {
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-left: 8px;
+  font-size: 24px;
+}
+
+.social-links li {
+  display: inline-block;
+  font-style: Italic;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+.social-links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+}
+.social-links a:active {
+  text-decoration: underline;    
+}
+
+.body {
+  background: lightblue;
+  width: 100%;
+}
+
